@@ -1,0 +1,26 @@
+{
+  "name": "mineti",
+  "version": "1.1.0",
+  "description": "Moin, bin Mineti, deine Persönliche Assistentin und Ausweiserin.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploycommands": "node src/deploy-commands.js"
+  },
+  "author": "Minecraft5333.net,",
+  "license": "DC5333BETA25358DCBOT",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.13.0",
+    "axios": "^1.2.3",
+    "discord-api-types": "^0.27.0",
+    "discord-tictactoe": "^3.1.0",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.20",
+    "weather-js": "^2.0.0"
+  }
+}
